@@ -1,0 +1,33 @@
+.col-content {
+    height: 500px;
+    width: 350px;
+}
+
+.col-title {
+    background: var(--bs-light-bg-subtle);
+    cursor: grab !important;
+    height: 60px;
+}
+
+.col-body {
+    max-height: 380px;
+    min-height: 380px;
+}
+
+.task-content {
+    background: var(--bs-light-bg-subtle);
+    cursor: grab !important;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 10px;
+}
